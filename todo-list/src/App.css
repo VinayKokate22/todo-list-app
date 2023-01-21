@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg,#ffb7b7,#727272),radial-gradient(60.91% 100% at 50% 0,#ffd1d1 0,#260000 100%),linear-gradient(238.72deg,#fdd,#720066),linear-gradient(127.43deg,#0ff,#f44),radial-gradient(100.22% 100% at 70.57% 0,red 0,#00ffe0 100%),linear-gradient(127.43deg,#b7d500,#30f);
+ 
+
+    background-blend-mode: screen,overlay,hard-light,color-burn,color-dodge,normal;
+    background-repeat: no-repeat;
+}
+
+.input-flex{
+   display: flex;
+   justify-content: space-between;
+}
+.background-color{
+    
+         /* height: 100vh; */
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        
+    
+}
+.todolistform{
+    
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.315);
+    text-align: center;
+    padding: 2rem;
+    border: none;
+    border-radius: 10px;
+    margin: 4rem 0;
+    /* height: fit-content; */
+    
+}
+.scroll-in-y{
+    
+    /* height:100%; */
+    /* background-color: #260000; */
+    /* overflow-y: scroll; */
+
+
+}
+.taskentered{
+    text-transform: capitalize;
+}
+.task-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.425);
+    
+    
+
+    align-items: center;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.task-removebutton{
+    height: 0.rem;
+}
+.tittle h2{
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+.tittle{
+    margin-bottom: 2rem;
+    
+}
+
+input{
+    width: 80%;
+    height: 3rem;
+    border: none;
+    padding: 0rem 1rem;
+    /* margin-left: 1rem; */
+    background-color:white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    
+}
+
+input:focus{
+    box-shadow: 0 0 20px #cf8bf3bf;
+    outline: none;
+    
+
+}
+/* button{
+    width: 6rem;
+    height: 3rem;
+    margin-left: 0.3rem;
+    background-color: rgba(255, 58, 225, 0.432);
+    border: none;
+    border-radius: 10px;
+
+    
+} */
+.btn{
+    background-image: linear-gradient(to right, #A770EF 0%, #cf8bf3  51%, #A770EF  100%);
+    border: none;
+    text-align: center;
+    text-transform:capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+         
+.addtask-button {
+   
+    margin-left: 1rem;
+    height: 3rem;
+    width: 5rem;
+   
+  }
+  .task-removebutton{
+    height: 3rem;
+    width: 5rem;
+  }
+  .taskremaining{
+    font-size: 1.5rem;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-weight:lighter; */
+    text-transform: capitalize;
+    margin: 2rem 0;
+    text-align: left;
+    background-color:rgba(255, 255, 255, 0.548);
+    width: max-content;
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #cf8bf3bf;
+
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient( #A770EF 0%, #cf8bf3  51%, #A770EF  100%);
+    border-radius: 3px;
+    
+}
