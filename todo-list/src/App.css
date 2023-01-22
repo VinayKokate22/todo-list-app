@@ -6,6 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,body{
+    overflow-x: hidden;
+
+}
 body{
     background: linear-gradient(180deg,#ffb7b7,#727272),radial-gradient(60.91% 100% at 50% 0,#ffd1d1 0,#260000 100%),linear-gradient(238.72deg,#fdd,#720066),linear-gradient(127.43deg,#0ff,#f44),radial-gradient(100.22% 100% at 70.57% 0,red 0,#00ffe0 100%),linear-gradient(127.43deg,#b7d500,#30f);
  
@@ -67,6 +71,7 @@ body{
 .tittle h2{
     font-size: 3rem;
     font-family: 'Pacifico', cursive;
+    font-weight: lighter;
 }
 .tittle{
     margin-bottom: 2rem;
@@ -156,4 +161,20 @@ input:focus{
     background: linear-gradient( #A770EF 0%, #cf8bf3  51%, #A770EF  100%);
     border-radius: 3px;
     
+}
+@media screen and (max-width:900px) {
+    
+    .todolistform{
+    
+        width: 90%;
+        padding: 1rem;
+    margin: 3rem 0;
+
+           
+    }
+    .taskremaining{
+        font-size: 1rem;
+        
+       
+      }
 }

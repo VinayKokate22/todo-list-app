@@ -26,7 +26,7 @@ const Todolist = () => {
                 <h2>To Do List</h2>
             </div>
             <div className='input-flex'>
-              <input type="text" placeholder='what to touch the grass' value={prev} onChange={(e)=>setprev(e.target.value)
+              <input type="text" placeholder='touch the grass' value={prev} onChange={(e)=>setprev(e.target.value)
                }/>
               <button className='addtask-button btn' onClick={addActivity}>Add Task</button>
             </div>
