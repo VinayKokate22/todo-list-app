@@ -39,16 +39,14 @@ body{
     /* height: fit-content; */
     
 }
-.scroll-in-y{
-    
-    /* height:100%; */
-    /* background-color: #260000; */
-    /* overflow-y: scroll; */
 
-
-}
 .taskentered{
     text-transform: capitalize;
+    width: 80%;
+    overflow-y: scroll;
+    text-align: left;
+    /* overflow-y: visible; */
+    
 }
 .task-flex{
     display: flex;
@@ -65,9 +63,7 @@ body{
     
 }
 
-.task-removebutton{
-    height: 0.rem;
-}
+
 .tittle h2{
     font-size: 3rem;
     font-family: 'Pacifico', cursive;
